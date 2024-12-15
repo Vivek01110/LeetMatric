@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: #EBE9E1;
+    /* border:1px solid grey; */
+    margin:0.21rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container{
+    height:60%;
+    width:40%;
+    padding:1rem;
+    background-color:white;
+    border-radius: 0.3rem;
+    box-shadow:0.5rem 0.5rem 1rem #c6b3ae;
+    display:flex;
+    flex-direction: column;
+
+}
+.leetmatric_title_container{
+    text-align:center;
+    margin:1rem;
+    color:#E43D12;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.3rem;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    color: transparent;
+} 
+.input_container{
+    height:25%;
+    width:100%;
+    /* border:2PX solid red; */
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-evenly;
+   
+}
+#input_username{
+    height:25%;
+    width:55%;
+    border:.1rem solid grey;
+     padding: 0.4rem;
+}
+.input_container button{
+    height:25%;
+    width:20%;
+    position:relative;
+    right:2rem;
+    border-radius:.3rem;
+    
+}
+.progress_container{
+    height:50%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+   
+  
+}
+.level_ques{
+    height :50%;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+     flex-wrap:wrap;
+     gap:10px;
+    /* position:relative;
+    right:2rem; */
+    
+}
+.circle{
+    height:5rem;
+    width:5rem;
+    border:1px black solid;
+    border-radius:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acheivement_container{
+    height:50%;
+    width:75%;
+    display:grid;
+    grid-template-rows: repeat(2,3rem);
+    grid-template-columns: repeat(3,9rem);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    position:relative;
+    left:3.5rem;
+
+    
+}
+.box{
+    border:1px black solid;
+    text-align: center;
+}
+
+.circle{
+    height:6rem;
+    width:6rem;
+    /* border:4px #299f5d solid; */
+    border-radius:7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+    font-size:1rem;
+    background-image:conic-gradient(#1e5a46 var(--progress-degree , 90%),#88b9aa 0%);
+}
+circle span{
+    position:relative;
+    z-index:2;
+}
+
+
+
+
